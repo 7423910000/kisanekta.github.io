@@ -1,0 +1,224 @@
+body{
+    background-color:rgb(74, 182, 74);
+}
+
+.main-heading{
+    font-size: 500%;
+    text-align: center;
+    color: darkblue;
+    
+}
+.nav-h{
+    width: 70%;
+    text-align: justify;
+    display: inline-block;
+    position: absolute;
+}
+.horizontal-list {
+    background: lightgrey;
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+    text-align: center;
+}
+.a1 i{
+    color: blue;
+    border-radius: 5px;
+    border:1.9px solid blue;
+    background-color: white;
+}
+.horizontal-list li {
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+    font-weight: 100;
+    font-size: 1.5rem;
+    font-weight: bold;
+    opacity: 0.99;
+    
+}
+
+
+.horizontal-list li a {
+    color: black;
+    text-decoration: none;
+
+}
+.a2{
+    color: blue;
+    border-radius: 5px;
+    border:1.9px solid blue;
+    background-color: white;
+}
+.a2:hover{
+    color: blue;
+    border-radius: 5px;
+    border:1.9px solid blue;
+    background-color: white;
+}
+
+.nav-menu li a {
+    transition: color 0.5s, border-bottom 4s;
+}
+
+.nav-menu li a:hover {
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+    border-bottom: 2px solid black;
+    font-size:1.55rem ;
+    transition: 0.4s;
+
+}
+#lightbox1{
+    height: 0px;
+    width: 0px;
+    top: 60px;
+    left: 500px;
+    position: absolute;
+    
+    overflow: hidden;
+    transition:  0.1s ease;
+}
+#lightbox1:target{
+    height: 300px;
+    width: 470px;
+    
+    border-radius: 10px;
+    
+}
+.nav-h{
+    background-image:linear-gradient(mistyrose,skyblue) ;
+    font-size: 1.2rem;
+    display: block;
+    height: 440%;
+    border-right: dotted 8px black;
+    border-bottom: dotted 17px black;
+    border-left: dotted 8px black;
+    border-top: dotted 17px black;
+    border-top-right-radius: 100px ;
+    border-bottom-right-radius: 100px;
+}
+.p1::before{
+    content: "The";
+    font-size: 50px;
+    color: darkblue;
+}
+.div-video{
+    display: inline-block;
+}
+.div-video1,img{
+    size: 5rem;
+    height: 700px;
+    width: 500px;
+}
+.nav2{
+    margin-top: -3%;
+    margin-left: 25%;
+    position: relative;
+}
+#aa1 i{
+    color: darkblue;
+    
+    transition: 1s;
+}
+#aa1 i:hover{
+    color: orangered;
+    
+    font-size: 1.2rem;
+}
+
+.fa-times-circle{
+    margin-top: 2%;
+    margin-left: 2%;
+    color: blue;
+    font-size: 1.5rem;
+    transition:  0.5s;
+}
+.fa-times-circle:hover{
+    margin-top: 2%;
+    margin-left: 2%;
+    color: red;
+    font-size: 1.7rem;
+    
+}
+#lightbox2{
+    height: 0px;
+    width: 0px;
+    background-image:linear-gradient(mistyrose,skyblue) ;
+    position: sticky;
+    margin-top:5%;
+    margin-left: 0%;
+    overflow: hidden;
+    transition:  0.2s ease-in-out;
+    font-size: 1.2rem;
+    display: block;
+    border: dotted 8px black;
+    border-radius: 100px ;
+}
+#lightbox2:target{
+    height: 700px;
+    width: 1000px;
+    margin-top: 5.2%;
+    padding-left: 2%;
+    
+    
+}
+
+.aside-section aside{
+    display: inline-block;
+    position: relative;
+    margin-left: 75%;
+    text-align: center;
+    margin-top: 1%;
+    width: 70px;
+    height: 70px;
+}
+#contact-form {
+    margin-top: 2%;
+    text-align: center;
+    background: transparent;
+    
+}
+
+#contact-container {
+    display: block;
+    background: transparent;    
+}
+#contact-form button[type="submit"] {
+    background: green;
+    font-size: 0.95rem;
+    border: 2px solid gray;
+    margin-top: 2%;
+    margin-left: 1%;
+    border-radius: 2px;
+    width: 150px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.046875em;
+    line-height: 1;
+    padding: 0.8em 0.8em 0.78em;
+    text-transform: uppercase;
+}
+#contact-form input,
+textarea {
+    max-width: 90%;
+    margin: 5px;
+    padding: 4px 10px;
+    background: rgb(145, 241, 145);
+    border: 2px solid dimgray;
+    color: black;
+    
+    width: 40%;
+    line-height: 1;
+    font-size: 1.7rem;
+}
+
+#contact-form button:hover {
+    background: darkgreen;
+    color: white;
+}
+.img-up img:hover{
+    box-shadow: rgb(7, 66, 7) 1px 10px 20px 1px ;
+    transition: 0.5s;
+}

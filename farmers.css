@@ -1,0 +1,167 @@
+body{
+    background-color:rgb(74, 182, 74);
+}
+.header-nav11{
+    background-color: lightgray;
+}
+.top-heading{
+    font-size: 60px;
+    text-align: center;
+    color:darkblue;
+    
+}
+.nav-h{
+    width: 70%;
+    text-align: justify;
+    display: inline-block;
+    position: absolute;
+}
+.horizontal-list {
+    
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+    text-align: center;
+}
+.a1 i{
+    color: blue;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border:1.9px solid blue;
+    background-color: white;
+}
+.horizontal-list li {
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+    font-weight: 100;
+    font-size: 1.5rem;
+    font-weight: bold;
+    opacity: 0.99;
+    
+}
+
+
+.horizontal-list li a {
+    color: black;
+    text-decoration: none;
+
+}
+
+.nav-menu li a {
+    transition: color 0.5s, border-bottom 4s;
+}
+
+.nav-menu li a:hover {
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+    border-bottom: 2px solid black;
+    font-size:1.55rem ;
+    transition: 0.4s;
+
+}
+.nav-h{
+    background-image:linear-gradient(mistyrose,skyblue) ;
+    margin-right: 5px;
+    border-right: dotted 8px black;
+    border-bottom: dotted 17px black;
+    border-left: dotted 8px black;
+    border-top: dotted 17px black;
+    border-top-right-radius: 100px ;
+    border-bottom-right-radius: 100px;
+}
+.p1::before{
+    content: "The";
+    font-size: 50px;
+    color: darkblue;
+}
+
+.aside-section aside{
+    display: inline-block;
+    position: relative;
+    margin-left: 78%;
+    text-align: center;
+    margin-top: 1%;
+    width: 200px;
+    height: 200px;
+}
+
+
+#lightbox1{
+    height: 0px;
+    width: 0px;
+    top: 60px;
+    left: 500px;
+    position: absolute;
+    
+    overflow: hidden;
+    transition:  0.1s ease;
+}
+#lightbox1:target{
+    height: 300px;
+    width: 470px;
+    
+    border-radius: 10px;
+    
+}
+.a2{
+    color: blue;
+    border-radius: 5px;
+    border:1.9px solid blue;
+    background-color: white;
+}
+.a2:hover{
+    color: blue;
+    border-radius: 5px;
+    border:1.9px solid blue;
+    background-color: white;
+}
+#contact-form {
+    margin-top: 10%;
+    text-align: center;
+    background: transparent;
+    
+}
+
+#contact-container {
+    display: block;
+    background: transparent;    
+}
+#contact-form button[type="submit"] {
+    background: green;
+    font-size: 0.95rem;
+    border: 2px solid gray;
+    margin-top: 1%;
+    margin-left: 1%;
+    border-radius: 2px;
+    width: 150px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.046875em;
+    line-height: 1;
+    padding: 0.8em 0.8em 0.78em;
+    text-transform: uppercase;
+}
+#contact-form input,
+textarea {
+    max-width: 90%;
+    margin: 5px;
+    padding: 4px 10px;
+    background: rgb(145, 241, 145);
+    border: 2px solid dimgray;
+    color: black;
+    
+    width: 40%;
+    line-height: 1;
+    font-size: 1.7rem;
+}
+
+#contact-form button:hover {
+    background: darkgreen;
+    color: white;
+}
+.img-up img:hover{
+    box-shadow: rgb(7, 66, 7) 1px 10px 20px 1px ;
+    transition: 0.5s;
+}
